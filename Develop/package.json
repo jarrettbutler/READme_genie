@@ -1,0 +1,25 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarrettbutler/READme_genie.git"
+  },
+  "keywords": [
+    "Readme"
+  ],
+  "author": "Jarrett Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarrettbutler/READme_genie/issues"
+  },
+  "homepage": "https://github.com/jarrettbutler/READme_genie#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
