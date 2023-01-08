@@ -1,11 +1,15 @@
-const inquirer = require('inquirer')
+//Creating const that link to the packages that are needed for this application
+const inquirer = require('inquirer');
+const Markdown = require('./render');
+const fs = require('fs');
+
 
 
 //Questions asked to users
 const questions = [
     {
         type: 'Input',
-        name: 'Title',
+        name: 'title',
         message: 'What is the name of your project?',
         validate: (titleInput) => {
             if (titleInput) {
@@ -31,7 +35,7 @@ const questions = [
     },
     {
         type: 'Input',
-        name: 'Installation',
+        name: 'installation',
         message: 'What are the steps required to install your project?',
         validate: (installationInput) => {
             if (installationInput) {
@@ -44,7 +48,7 @@ const questions = [
     },
     {
         type: 'Input',
-        name: 'Usage',
+        name: 'usage',
         message: 'Provide instructions and examples for use.',
         validate: (usageInput) => {
             if (usageInput) {
@@ -57,7 +61,7 @@ const questions = [
     },
     {
         type: 'Input',
-        name: 'Credits',
+        name: 'credits',
         message: 'List your collaborators, if any.',
         validate: (creditInput) => {
             if (creditInput) {
@@ -70,12 +74,9 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'License',
+        name: 'license',
         message: 'What License did you use?',
         choices: ['MIT', 'ISC', 'Apache 2.0', 'GNUPLv3.0'],
-        filter(val) {
-            return val.toLowerCase();
-        },
         validate: (licenseInput) => {
             if (licenseInput) {
               return true;
@@ -87,7 +88,7 @@ const questions = [
     },
     {
         type: 'Input',
-        name: 'Features',
+        name: 'features',
         message: 'If your project has a lot of features, list them here.',
         validate: (featuresInput) => {
             if (featuresInput) {
@@ -100,7 +101,7 @@ const questions = [
     },
     {
         type: 'Input',
-        name: 'Tests',
+        name: 'tests',
         message: 'Write tests for the appliactions',
         validate: (testInput) => {
             if (testInput) {
@@ -113,7 +114,7 @@ const questions = [
     },
     {
         type: 'Input',
-        name: 'How to contribute/GitHub Repo',
+        name: 'github',
         message: 'Paste the Link for your Github repo',
         validate: (githubInput) => {
             if (githubInput) {
@@ -126,7 +127,7 @@ const questions = [
     },
     {
         type: 'Input',
-        name: 'Author',
+        name: 'author',
         message: 'Please enter the name of the author',
         validate: (authorInput) => {
             if (authorInput) {
@@ -139,7 +140,7 @@ const questions = [
     },
     {
         type: 'Input',
-        name: 'Email',
+        name: 'email',
         message: 'What is your email?',
         validate: (emailInput) => {
             if (emailInput) {
@@ -153,23 +154,25 @@ const questions = [
 ]
 
 // Function that writes the READme file 
-function writeToFile(fileName, data) {
+function writeToFile(fileName, answers) {
     return new Promise(function (reslove, reject) {
-        fs.writeFile('README.md', data, function (err) {
+        fs.writeFile('README.md', answers, function (err) {
             if (err) {
                 reject(err);
                 return;
             }
             reslove({
                 ok: true, 
-                message: 'READme File has been created'
+                message: 'READme File has been created',
             })
         })
     })
 };
 
+// These functions makes the questions promted on init
 const init = function () {
-    return inquirer.prompt(questions);
+    return inquirer
+    .prompt(questions)
 };
 
 init()
