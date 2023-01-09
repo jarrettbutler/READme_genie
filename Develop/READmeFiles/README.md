@@ -39,6 +39,6 @@ This is it
 github.com
 
 ## Contact
-* Jarrett Butler
-* jbutler98@hotmail.com
+Jarrett Butler
+jbutler98@hotmail.com
  
