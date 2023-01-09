@@ -4,24 +4,24 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
         
 ## Table of Content
-    * [Description](#Description)
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [Credits](#Credits)
-    * [License](#License)
-    * [Features](#Features)
-    * [Tests](#Tests)
-    * [GitHub](#github)
-    * [Contact](#Contact)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Features](#features)
+* [Tests](#tests)
+* [GitHub](#github)
+* [Contact](#contact)
 
 ## Description
-Creates a read me 
+Creates a READme file based on user input
 
 ## Installation
-use node index.js
+Clone repo and the run node index.js
 
 ## Usage
-Whenever you need a read me
+Whenever you need a READme file
 
 ## Credits
 N/A
@@ -30,7 +30,7 @@ N/A
 https://opensource.org/licenses/MIT
 
 ## Features
-N/A
+Creates READme File
 
 ## Tests
 This is it
@@ -39,6 +39,6 @@ This is it
 github.com
 
 ## Contact
-Jarrett Butler
-jbutler98@hotmail.com
+* Jarrett Butler
+* jbutler98@hotmail.com
  

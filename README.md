@@ -3,15 +3,15 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
         
 ## Table of Content
-    * [Description](#Description)
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [Credits](#Credits)
-    * [License](#License)
-    * [Features](#Features)
-    * [Tests](#Tests)
-    * [GitHub](#github)
-    * [Contact](#Contact)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Features](#features)
+* [Tests](#tests)
+* [GitHub](#github)
+* [Contact](#contact)
 
 ## Description
 This application is used to create a READme file based on user inputs. After taking the users inputs the application then takes the responses/answers and creates your very own READme file.

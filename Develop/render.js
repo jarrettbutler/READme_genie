@@ -26,15 +26,15 @@ static generateReadme(answers) {
 ${this.renderLicenseBadge(answers.license)}
         
 ## Table of Content
-    * [Description](#Description)
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [Credits](#Credits)
-    * [License](#License)
-    * [Features](#Features)
-    * [Tests](#Tests)
-    * [GitHub](#github)
-    * [Contact](#Contact)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Features](#features)
+* [Tests](#tests)
+* [GitHub](#github)
+* [Contact](#contact)
 
 ## Description
 ${answers.description}
