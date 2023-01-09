@@ -62,6 +62,7 @@ ${answers.github}
 
 ## Contact
 ${answers.author}
+
 ${answers.email}
  `
 }
