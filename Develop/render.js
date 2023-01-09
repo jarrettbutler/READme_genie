@@ -61,8 +61,8 @@ ${answers.tests}
 ${answers.github}
 
 ## Contact
-${answers.author}
-${answers.email}
+* ${answers.author}
+* ${answers.email}
  `
 }
 }
