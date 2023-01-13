@@ -1,5 +1,5 @@
 
-# TEST
+# READme Generator
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
         
@@ -7,41 +7,41 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributions](#credits)
+* [Credits](#credits)
 * [License](#license)
 * [Features](#features)
 * [Tests](#tests)
 * [GitHub](#github)
-* [Questions](#contact)
+* [Contact](#contact)
 
 ## Description
-test
+This application is used whenever you need a READme file. It takes user inputs and then creates a READme file besed on that
 
 ## Installation
-test
+Clone the repo, run "npm install if no packages are installed", run "node index.js"
 
 ## Usage
-test
+At the end of a project insteadd of copying and pasting the template from the internet run this application and it will create the READme for you
 
-## Contributions
-test
+## Credits
+N/A
 
 ## License
 https://opensource.org/licenses/MIT
 
 ## Features
-test
+N/A
 
 ## Tests
-test
+Run the installation instructions and watch the magic happen
 
 ## Github
-test
+https://github.com/jarrettbutler/READme_genie
 
-## Questions
-test
+## Contact
+Jarrett Butler
 
-test
+jbutler98@hotmail.com
 
-test
+https://github.com/jarrettbutler
  
