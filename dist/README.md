@@ -1,5 +1,5 @@
 
-# READme Generator
+# TEST
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
         
@@ -7,38 +7,41 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Contributions](#credits)
 * [License](#license)
 * [Features](#features)
 * [Tests](#tests)
 * [GitHub](#github)
-* [Contact](#contact)
+* [Questions](#contact)
 
 ## Description
-Creates a READme file based on user input
+test
 
 ## Installation
-Clone repo and the run node index.js
+test
 
 ## Usage
-Whenever you need a READme file
+test
 
-## Credits
-N/A
+## Contributions
+test
 
 ## License
 https://opensource.org/licenses/MIT
 
 ## Features
-Creates READme File
+test
 
 ## Tests
-This is it
+test
 
 ## Github
-github.com
+test
 
-## Contact
-Jarrett Butler
-jbutler98@hotmail.com
+## Questions
+test
+
+test
+
+test
  

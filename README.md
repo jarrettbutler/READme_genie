@@ -20,7 +20,7 @@ This application is used to create a READme file based on user inputs. After tak
 Clone the repo here:
 https://github.com/jarrettbutler/READme_genie.git
 
-Open the index.js file in the integrated terminal, then in the command line run "node index.js". You will then be promted with the questions.
+Open the index.js file in the integrated terminal, run the command "npm install(if there is no package.json or package,lock.json installed" then in the command line run "node index.js". You will then be promted with the questions.
 
 Find below the the video instructions so that you can see what I did to create the READme file. *Note I already have the repo downloaded*:
 https://drive.google.com/file/d/1kEqyxjZ2IY8XGzQIOvgh9BCbQMmzk2or/view

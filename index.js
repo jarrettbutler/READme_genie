@@ -1,6 +1,6 @@
 //Creating const that link to the packages that are needed for this application
 const inquirer = require('inquirer');
-const MarkDown = require('./render');
+const MarkDown = require('./assets/utils/render');
 const fs = require('fs');
 
 
@@ -102,7 +102,7 @@ const questions = [
   {
     type: 'Input',
     name: 'tests',
-    message: 'Write tests for the applications',
+    message: 'Write tests for the applications.',
     validate: (testInput) => {
       if (testInput) {
         return true;
@@ -115,7 +115,7 @@ const questions = [
   {
     type: 'Input',
     name: 'github',
-    message: 'Paste the Link for your Github repo',
+    message: 'Paste the link for your Github repo.',
     validate: (githubInput) => {
       if (githubInput) {
         return true;
@@ -128,7 +128,7 @@ const questions = [
   {
     type: 'Input',
     name: 'author',
-    message: 'Please enter the name of the author',
+    message: 'Please enter the name of the author.',
     validate: (authorInput) => {
       if (authorInput) {
         return true;
@@ -151,6 +151,19 @@ const questions = [
       }
     },
   },
+  {
+    type: 'Input',
+    name: 'githubAccount',
+    message: 'Paste the link for your Github account.',
+    validate: (emailInput) => {
+      if (emailInput) {
+        return true;
+      } else {
+        console.log("Please enter your github account link");
+        return false;
+      }
+    },
+  },
 ]
 
 // Function that writes the READme file and initalizes the application
@@ -159,7 +172,7 @@ function init() {
     .prompt(questions)
     .then((answers) => {
       const mark = MarkDown.generateReadme(answers)
-      fs.writeFile('./READmeFiles/README.md', mark, function (err) {
+      fs.writeFile('./dist/README.md', mark, function (err) {
         if (err) {
           console.log('Could not save file', err)
         } else {

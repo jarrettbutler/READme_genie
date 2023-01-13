@@ -64,6 +64,8 @@ ${answers.github}
 ${answers.author}
 
 ${answers.email}
+
+${answers.githubAccount}
  `
 }
 }
